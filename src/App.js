@@ -1,11 +1,10 @@
 import './App.css';
-
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
-import Logo from './componentes/Logo';
+import Logo from './componentes/Logo'
 
 function App() {
 
@@ -68,7 +67,7 @@ function App() {
           <Boton
             manejarClic={agregarInput}>9</Boton>
           <Boton
-            manejarClic={agregarInput}>X</Boton>
+            manejarClic={agregarInput}>*</Boton>
 
         </div>
         <div className='fila'>
