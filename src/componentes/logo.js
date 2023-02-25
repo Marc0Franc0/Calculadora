@@ -1,6 +1,6 @@
-import React from 'react'
-import logo from '.././imagenes/logo.png'
-import '../hojas-de-estilo/Logo.css'
+import React from 'react';
+import logo from '.././imagenes/logo.png';
+import '../hojas-de-estilo/Logo.css';
 
 const Logo = (props) => (
 
