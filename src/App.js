@@ -1,10 +1,11 @@
 import './App.css';
-import logo from '../src/imagenes/logo.png'
+
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
+import Logo from './componentes/Logo'
 
 function App() {
 
@@ -12,29 +13,24 @@ function App() {
 
   const agregarInput = val => {
     setInput(input + val);
- 
+
   };
 
   const calcularResultado = () => {
-if(input){
+    if (input) {
 
-  setInput(evaluate(input));
-}else{
-  alert("Por favor ingrese valores para realizar los cálculos.")
-}
-   
+      setInput(evaluate(input));
+    } else {
+      alert("Por favor ingrese valores para realizar los cálculos.")
+    }
+
   };
 
 
   return (
     <div className='App'>
 
-      <div className='logo-contenedor'>
-        <img
-          src={logo}
-          className='logo'
-          alt='Logo React' />
-      </div>
+      <Logo />
 
       <div className='contenedor-calculadora'>
         <Pantalla input={input} />
