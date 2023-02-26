@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '.././imagenes/logo.png';
+import Logo from '.././imagenes/logo.png';
 import '../hojas-de-estilo/Logo.css';
 
-const Logo = (props) => (
+const Logo = () => (
 
     <div className='logo-contenedor'>
     <img
-      src={logo}
+      src={Logo}
       className='logo'
       alt='Logo React' />
   </div>
