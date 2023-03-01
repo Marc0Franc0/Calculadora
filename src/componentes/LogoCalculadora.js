@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '.././imagenes/logo.png';
 import '../hojas-de-estilo/Logo.css';
 
-const Logo = () => (
+const LogoCalculadora = () => (
 
     <div className='logo-contenedor'>
     <img
@@ -13,4 +13,5 @@ const Logo = () => (
 
 );
 
-export default Logo;
+
+export default LogoCalculadora;

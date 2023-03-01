@@ -4,7 +4,7 @@ import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
-import Logo from './componentes/Logo'
+import Logo from './componentes/LogoCalculadora'
 
 function App() {
 
